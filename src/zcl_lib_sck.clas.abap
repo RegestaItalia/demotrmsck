@@ -15,7 +15,7 @@ ENDCLASS.
 CLASS zcl_lib_sck IMPLEMENTATION.
 
   METHOD sum.
-    r_result = i_v1 + i_v2 . " abapLint will tell us something is wrong with this line (space_before_dot)
+    r_result = i_v1 + i_v2.
   ENDMETHOD.
 
 ENDCLASS.

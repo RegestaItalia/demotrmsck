@@ -18,7 +18,7 @@ CLASS zclt_lib_sck IMPLEMENTATION.
     cl_abap_unit_assert=>assert_equals( msg = 'Error in result 1 + 1'
                                        exp = m_cut->sum( i_v1 = 1
                                                          i_v2 = 1 )
-                                       act = 1 ). " ADASH will tell us this unit test is broken
+                                       act = 2 ).
   ENDMETHOD.
 
 ENDCLASS.
