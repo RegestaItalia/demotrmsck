@@ -19,6 +19,6 @@ CLASS zclt_lib_sck IMPLEMENTATION.
                                        exp = m_cut->sum( i_v1 = 1
                                                          i_v2 = 1 )
                                        act = 1 ). " ADASH will tell us this unit test is broken
- ENDMETHOD.
+  ENDMETHOD.
 
 ENDCLASS.
