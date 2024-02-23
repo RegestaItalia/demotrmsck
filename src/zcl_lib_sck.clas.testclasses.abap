@@ -10,7 +10,7 @@ ENDCLASS.
 
 CLASS zclt_lib_sck IMPLEMENTATION.
 
- METHOD setup.
+  METHOD setup.
    CREATE OBJECT m_cut.
  ENDMETHOD.
 
