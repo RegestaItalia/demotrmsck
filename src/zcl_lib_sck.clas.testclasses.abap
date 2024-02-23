@@ -2,7 +2,7 @@
 CLASS zclt_lib_sck DEFINITION FINAL FOR TESTING
                                      DURATION SHORT
                                      RISK LEVEL HARMLESS.
- PRIVATE SECTION.
+  PRIVATE SECTION.
    DATA: m_cut TYPE REF TO zcl_lib_sck.
    METHODS setup.
    METHODS test_sum FOR TESTING RAISING cx_static_check.
