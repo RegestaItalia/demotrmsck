@@ -12,7 +12,7 @@ CLASS zclt_lib_sck IMPLEMENTATION.
 
   METHOD setup.
     CREATE OBJECT m_cut.
- ENDMETHOD.
+  ENDMETHOD.
 
  METHOD test_sum.
    cl_abap_unit_assert=>assert_equals( msg = 'Error in result 1 + 1'
