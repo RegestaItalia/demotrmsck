@@ -11,7 +11,7 @@ ENDCLASS.
 CLASS zclt_lib_sck IMPLEMENTATION.
 
   METHOD setup.
-   CREATE OBJECT m_cut.
+    CREATE OBJECT m_cut.
  ENDMETHOD.
 
  METHOD test_sum.
